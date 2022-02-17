@@ -43,15 +43,71 @@ img.logo{
   overflow: hidden;
   background-color: #000000;
 }
+a:hover{background-color: #958E8E;}
+	
+	
+	.icon {
+	position:relative;
+	text-align:center;
+	width:0px;
+	height:0px;
+	padding:10px;
+	border-top-right-radius: 	10px;
+	border-top-left-radius: 	10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 	10px; 
+	-moz-border-radius: 		10px 10px 10px 10px;
+	-webkit-border-radius: 		10px 10px 10px 10px;
+	-khtml-border-radius: 		10px 10px 10px 10px; 	
+	color:black;
+}
+.icon i {
+	font-size:10px;
+	position:absolute;
+	left:7px;
+	top:7px;
+}
+.icon.social {
+	float:left;
+	margin:10px 10px 5px 5px;
+	cursor:pointer;
+	background:white ;
+	color:black;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+.icon.social:hover {
+	background:#262626 ;
+	color:#6d6e71;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));	 	
+}
+.icon.social.fb i {
+	left:7px;
+	top:6px;
+}
+.icon.social.tw i {
+	left:5px;
+  top:6px;
+}
 
 
 .topnav a {
-  float: right;
+  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 10px;	
 }
 
 
@@ -385,4 +441,3 @@ h2:before, h2:after{
 }
 a.fblink {
 	color: #AC6D10;}
-
